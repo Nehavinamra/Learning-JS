@@ -6,4 +6,6 @@ In this project i will basically show how JS Works and how to actually get start
 It's simple to run JS file in VScode with Node.js. From a terminal, just type:
 node filename.js
 
+Introduction:
 
+JS is a prototype based, multi-paradigm, single threaded, dynamic language that is used as a scripting language to create interactive web pages

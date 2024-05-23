@@ -22,3 +22,10 @@ let a = 10;
 //2. variables can be reassigned
 //3. It is not hoisted
 
+// Fourth: Using Const
+
+const b = 20;
+//Few imp points:
+//1. Variables cannot be redeclared
+//2. Variables cannot be reassigned
+//3. It is not hoisted

@@ -1,3 +1,9 @@
+//JS Datatypes
+//JS has 8 datatypes:
+//String, Number, Bigint, Boolean, Undefined, Null, Symbol and object(non primitive)
+//In Object we have following: Object, Array, and date
+
+
 //In JS, declaring a variable can be done by four diff ways:
 
 //First: Automatic Declaration

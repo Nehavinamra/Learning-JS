@@ -1,4 +1,5 @@
 //Object in Js is Non-primitive datatype
+//The object datatype can contain: An array, A date, an object 
 //eg:
 const person ={
   firstName: "Neha",
@@ -10,6 +11,7 @@ const person ={
 
 //Object can also be declared without any properties as:
 const person = new object();
+const arr = new Array("hi", "hola");
 
 //or even as an empty object:
 const person ={};

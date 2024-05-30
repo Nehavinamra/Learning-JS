@@ -13,3 +13,6 @@ const cities = new Array ("BOM", "DEL", "GOA");
 //1. using for loop
 //2. Using forEach()
 //3. using map()
+
+//Splice() is an interesting method used as a combination of push and pop functions
+//syntax: splice(position to be added, elements to remove, "new items");

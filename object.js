@@ -17,3 +17,6 @@ const arr = new Array("hi", "hola");
 const person ={};
 
 //Object property invoked with () returns the property but without returns the function defination
+
+//The two most important keywords used in objects are: get() and set() keyword
+//Get Keyword: Used to get a value from an object as a property itself instead of a function, therefore has a simplier syntax on comparing with function

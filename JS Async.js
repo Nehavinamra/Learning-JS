@@ -24,4 +24,4 @@ function mycalci(num1, num2, theCallback) {
   theCallback(sum);
 }
 
-mycalci(5, 5, addition);  //It is passed to mycalci() as an argument
+mycalci(5, 5, addition);  //It is passed to mycalci() as an argument, prints 10

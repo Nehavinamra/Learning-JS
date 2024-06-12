@@ -11,3 +11,17 @@ function secondCallback()
 
 firstCallback(); //This will initially print Hello
 secondCallback(); //this will then overwrite Hello and print morning, thus final output is morning
+
+//eg2---------------
+
+function addition(thing) {     //callback function
+
+  document.getElementById("demo").innerHTML = thing;
+}
+
+function mycalci(num1, num2, theCallback) {
+  let sum = num1 + num2;
+  theCallback(sum);
+}
+
+mycalci(5, 5, addition);  //It is passed to mycalci() as an argument

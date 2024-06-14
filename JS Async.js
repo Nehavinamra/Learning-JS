@@ -25,3 +25,10 @@ function mycalci(num1, num2, theCallback) {
 }
 
 mycalci(5, 5, addition);  //It is passed to mycalci() as an argument, prints 10
+
+
+//JS promises: Alternative of callback functions
+//consists of : "Producing code" is code that can take some time & "Consuming code" is code that must wait for the result
+
+
+

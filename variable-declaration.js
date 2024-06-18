@@ -3,14 +3,13 @@
 //String, Number, Bigint, Boolean, Undefined, Null, Symbol and object(non primitive)
 //In Object we have following: Object, Array, and date
 
-
 //In JS, declaring a variable can be done by four diff ways:
 
 //First: Automatic Declaration
 
 x = 5;
 y = 9;
-z = x+y; 
+z = x + y;
 
 //Second: Using Var
 

@@ -1,11 +1,9 @@
 //Function Callback: wherein a function passes another function as an argument which is called after this function is executed
 //eg
-function firstCallback()
-{
+function firstCallback() {
   displaynew("Hello");
 }
-function secondCallback()
-{
+function secondCallback() {
   displaynew("Morning");
 }
 
@@ -14,7 +12,8 @@ secondCallback(); //this will then overwrite Hello and print morning, thus final
 
 //eg2---------------
 
-function addition(thing) {     //callback function
+function addition(thing) {
+  //callback function
 
   document.getElementById("demo").innerHTML = thing;
 }
@@ -24,11 +23,7 @@ function mycalci(num1, num2, theCallback) {
   theCallback(sum);
 }
 
-mycalci(5, 5, addition);  //It is passed to mycalci() as an argument, prints 10
-
+mycalci(5, 5, addition); //It is passed to mycalci() as an argument, prints 10
 
 //JS promises: Alternative of callback functions
 //consists of : "Producing code" is code that can take some time & "Consuming code" is code that must wait for the result
-
-
-

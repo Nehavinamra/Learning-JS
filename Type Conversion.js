@@ -5,5 +5,3 @@ Number(Math.PI); //3.148
 Number(" "); //0
 Number("99 88"); //NAN
 Number("john"); //NAN
-
-

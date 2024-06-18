@@ -1,10 +1,10 @@
 //Object in Js is Non-primitive datatype
-//The object datatype can contain: An array, A date, an object 
+//The object datatype can contain: An array, A date, an object
 //eg:
-const person ={
+const person = {
   firstName: "Neha",
   lastName: "Vinamra",
-  age: 22
+  age: 22,
 };
 
 //The key values of an object can be altered, deleted, added
@@ -14,7 +14,7 @@ const person = new object();
 const arr = new Array("hi", "hola");
 
 //or even as an empty object:
-const person ={};
+const person = {};
 
 //Object property invoked with () returns the property but without returns the function defination
 

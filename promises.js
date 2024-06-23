@@ -12,3 +12,4 @@ myPromise.then( //this is consuming code
     function (error) {//if rejected}
       );
 
+//resolve and reject are reserved keywords used in promises

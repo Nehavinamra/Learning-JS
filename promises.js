@@ -13,3 +13,14 @@ myPromise.then( //this is consuming code
       );
 
 //resolve and reject are reserved keywords used in promises
+
+
+
+const pro = () => {
+return new Promise((resolve, reject) => {
+addEventListener("click", () => {
+resolve("Hello")
+})
+})
+}
+pro().then(e => console.log(e))

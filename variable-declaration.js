@@ -2,6 +2,11 @@
 //JS has 8 datatypes:
 //String, Number, Bigint, Boolean, Undefined, Null, Symbol and object(non primitive)
 //In Object we have following: Object, Array, and date
+//JavaScript has six primitive data types:
+//Number, String, Boolean, Null, Undefined, and Symbol. It also has two compound data types: Object and Array
+
+//var has function scope, while let has block scope.
+//Use let for better scoping and avoid issues related to hoisting.
 
 //In JS, declaring a variable can be done by four diff ways:
 

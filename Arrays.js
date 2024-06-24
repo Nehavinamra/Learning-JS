@@ -16,3 +16,15 @@ const cities = new Array("BOM", "DEL", "GOA");
 
 //Splice() is an interesting method used as a combination of push and pop functions
 //syntax: splice(position to be added, elements to remove, "new items");
+
+
+
+//prototype Array it adds funcs
+
+if (!Array.prototype.first) {
+Array.prototype.first = function() {
+return this[0];
+};
+}
+const myArray = [10, 20, 30];
+console.log(myArray.first()); // Outputs: 10

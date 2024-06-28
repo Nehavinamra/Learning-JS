@@ -8,6 +8,7 @@
 
 const xhttp = new XMLHttpRequest(); //creating request
 xhttp.onload = function() { //Defining callback function
+  //whatever to do when response is ready
 }
 xhttp.open("GET", "yourlink_"); //open the request
 xhttp.send(); //send the request to the server

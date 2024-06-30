@@ -12,3 +12,8 @@ xhttp.onload = function() { //Defining callback function
 }
 xhttp.open("GET", "yourlink_"); //open the request
 xhttp.send(); //send the request to the server
+
+
+//onload: define callback function to be excecuted when request receives an answer
+//To send request to server: Use open and send
+//OPEN SYNTAX: open(method, URL, async)
